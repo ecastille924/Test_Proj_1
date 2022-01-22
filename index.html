@@ -4,13 +4,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test Project 1</title>
-    <!-- <script src="index.js"></script> -->
+    <script src="index.js"></script>
     <link rel= "stylesheet" type ="text/css" href = "app.css">
 </head>
 <body>
     <h1>Hello World</h1>
-    <img class="guitar" src="img/guit_logo.png"><br>
-    <button id="rotate-btn">Rotate</button>
-    <button id="zoom-btn">Zoom</button>
+    <img id="guitar-png" src="img/guit_logo.png"><br>
+    <button id="rotate-btn" onclick="rotateOnClick()">Rotate</button>
+    <button id="zoom-btn" onclick="zoomOnClick()">Zoom</button>
+    <button id="perspective-btn" onclick="perspectiveOnClick()">Perspective</button>
 </body>
 </html>
