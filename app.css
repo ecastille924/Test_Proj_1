@@ -4,12 +4,12 @@ body{
     background-color: rgb(164, 214, 237);
   }
 
-#guitar {
+.guitar {
     padding-bottom: 2rem;
     width: 25rem;
     transition: all .9s;
 }
 
-#guitar:hover{
+.guitar:hover{
     transform: rotate(1turn);
 }
