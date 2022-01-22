@@ -1,0 +1,15 @@
+body{
+    text-align: center;
+    font-family: sans-serif;
+    background-color: rgb(164, 214, 237);
+  }
+
+#guitar {
+    padding-bottom: 2rem;
+    width: 25rem;
+    transition: all .9s;
+}
+
+#guitar:hover{
+    transform: rotate(1turn);
+}
