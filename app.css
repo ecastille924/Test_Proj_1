@@ -4,12 +4,16 @@ body{
     background-color: rgb(164, 214, 237);
   }
 
-#guitar-png {
-    padding-bottom: 2rem;
-    width: 25rem;
+#img-div {
+    padding-bottom: 1rem;
 }
 
-.guitar, .guitar2, .guitar3 {
+#guitar-png {
+    width: 25rem;
+    border: 2px solid
+}
+
+.guitar, .guitar2, .guitar3, .guitar4{
     transition: all .9s;
 }
 
@@ -22,5 +26,9 @@ body{
 }
 
 .guitar3:hover {
-    transform: perspective(0)
+    transform: skew(20deg, 20deg)
+}
+
+.guitar4:hover{
+    transform: scale(0.75) translate(20%,-25%);
 }

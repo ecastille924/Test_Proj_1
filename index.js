@@ -10,8 +10,14 @@ function zoomOnClick(){
     guitarPng.className = "guitar2"
 }
 
-function perspectiveOnClick(){
+function skewOnClick(){
     let guitarPng = document.getElementById("guitar-png")
     guitarPng.className = ""
     guitarPng.className = "guitar3"
+}
+
+function translateOnClick(){
+    let guitarPng = document.getElementById("guitar-png")
+    guitarPng.className = ""
+    guitarPng.className = "guitar4"
 }
